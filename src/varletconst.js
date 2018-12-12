@@ -9,6 +9,8 @@ var globalString = "I am a global variable";
 var es6String = "Hi, I am a es6 variable";
 var es6Const = "You cannot change my value";
 
+es6Const = "foutje";
+
 window.firstScope.textContent = window.globalString;
 window.secondScope.textContent = window.es6String;
 window.thirdScope.textContent = window.es6Const;
