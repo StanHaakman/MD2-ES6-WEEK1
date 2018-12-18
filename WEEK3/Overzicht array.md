@@ -18,4 +18,4 @@ Een array heeft geen specifiek datatype.
 3. let elftal = [];
        elftal.length = 11;
 ```
-Opmerking: Alle waarden in de bovenstaande array *elftal* hebben de waarde ```undifened``` op deze manier
+Opmerking: Alle waarden in de bovenstaande array *elftal* hebben de waarde ```undefined``` met deze manier van aanmaken.
