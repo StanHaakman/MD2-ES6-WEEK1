@@ -11,7 +11,7 @@
 var IDoBelongToTheWindow = "Hi";
 
 function notAGlobalVar() {
-     IDoBelongToTheWindow = "I am in the function scope";
+    var IDoBelongToTheWindow = "I am in the function scope";
     window.assignedToGlobal = "I am on the global scope";
     wrong = "Oh oh, I broke out of the function scope";
 }
