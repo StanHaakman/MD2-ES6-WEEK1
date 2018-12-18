@@ -13,7 +13,7 @@ const main = {
   showArrays(fruits, fruitsCopy) {
     main.showResult("fruits: " + fruits);
     main.showResult("fruitsCopy: " + fruitsCopy);
-    main.showResult("Equal: " + (fruits == fruitsCopy));
+    main.showResult("Zijn de objecten gelijk: " + (fruits == fruitsCopy));
   },
 
   showArrayProperties(array){
@@ -21,4 +21,4 @@ const main = {
   console.log(array);
   }
 
-}
+};
