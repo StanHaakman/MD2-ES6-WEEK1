@@ -2,6 +2,7 @@ const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
 
 createSquare(70, 90, 150, 150, "#00FF00");
+createSquare(20, 40, 50, 50, "#FF00FF");
 
 function createSquare(xPos, yPos, width, height, squareColor) {
     ctx.beginPath();
@@ -11,11 +12,7 @@ function createSquare(xPos, yPos, width, height, squareColor) {
     ctx.closePath();
 }
 
-ctx.beginPath();
-ctx.rect(20, 40, 50, 50);
-ctx.fillStyle = "#FF0000";
-ctx.fill();
-ctx.closePath();
+
 
 ctx.beginPath();
 ctx.arc(240, 160, 20, 0, Math.PI*2, false);

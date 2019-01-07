@@ -7,17 +7,17 @@ Leer het onderscheid tussen verschillende manieren voor het kopiëren van een ar
 2. Je kan een shallow copy maken van een array.
 
 **Opdrachten**  
-1a. Kopieer een tabel met behulp van =  
-1b. Verander het eerste element in de gekopieerde tabel  
-1c. Toon de inhoud van beide tabellen.  
+1a. Kopieer een array met behulp van =  
+1b. Verander het eerste element in de gekopieerde array  
+1c. Toon de inhoud van beide arrays.  
 
-2a. Kopieer een tabel met behulp van .slice  
-2b. Verander het eerste element in de gekopieerde tabel  
-2c. Toon de inhoud van beide tabellen.  
+2a. Kopieer een array met behulp van .slice  
+2b. Verander het eerste element in de gekopieerde array  
+2c. Toon de inhoud van beide arrays.  
 
-3a. Kopieer een tabel met behulp van spread (...)  
-3b. Verander het eerste element in de gekopieerde tabel  
-3c. Toon de inhoud van beide tabellen.  
+3a. Kopieer een array met behulp van spread (...)  
+3b. Verander het eerste element in de gekopieerde array  
+3c. Toon de inhoud van beide arrays.  
 
 4a. Beschrijf de verschillen tussen de drie bovenstaande methoden.  
 
@@ -29,7 +29,7 @@ De verschillende manieren om een array aan te maken.
 
 bekijk ook
 .concat
-Lees meer over shallow e deep copy
+Lees meer over shallow en deep copy
 ```
 
 **Opmerking**  
