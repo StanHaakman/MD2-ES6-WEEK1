@@ -15,4 +15,5 @@ function()
 ```
 
 ### Opmerking
-Zet de code in een apart JavaScript bestand.
+1. Zet de code in een apart JavaScript bestand met de naam script.js 
+2. Plaats het JavaScript bestand script.js in de end directory.
